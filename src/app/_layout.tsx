@@ -10,7 +10,12 @@ export default function RootLayout() {
           headerShown: false,
           contentStyle: { backgroundColor: "#ffffff" },
         }}
-      />
+      >
+        <Stack.Screen
+          name="app-store"
+          options={{ contentStyle: { backgroundColor: "#1c1c1e" } }}
+        />
+      </Stack>
     </>
   );
 }
